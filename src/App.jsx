@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import HomePage from './components/pages/HomePage'
+import HomePage from './pages/HomePage'
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
   return (
     <div className='main__wrapper'>
       <HomePage />
+
     </div>
   )
 }
